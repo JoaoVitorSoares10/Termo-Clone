@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    
+    div {
+        display: flex;
+        gap: 0.4rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .content {
+        gap: 0.2rem;
+        
+        div {
+            gap: 0.2rem;
+        }
+    }
+}

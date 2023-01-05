@@ -1,0 +1,45 @@
+.content {
+    max-width: 708px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 1.65rem;
+        font-weight: 600;
+    }
+}
+
+.buttons {
+    display: flex;
+
+    button + button {
+        margin-left: 0.25rem;
+    }
+
+    button {    
+        font-weight: 700;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 1.5rem;
+        height: 1.5rem;
+
+        border: 2px solid var(--brown-200);
+        border-radius: 20%;
+        background: transparent;
+
+        color: var(--brown-200);
+
+        font-size: 0.8rem;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
